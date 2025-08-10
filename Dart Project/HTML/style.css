@@ -1,0 +1,12 @@
+button{
+    background-color: aqua ;
+    padding: 20px ;
+    margin: 50px ;
+    border-radius: 10px ;
+    font-size: large ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    color: azure ;
+}
+body{
+    background-image: url("https://th.bing.com/th/id/R.829843c130c948d4fbb835dae965a5da?rik=LCpFbdcAeWDZ8w&riu=http%3a%2f%2fwallpapercave.com%2fwp%2ffAwVCh3.jpg&ehk=lGN4CaEuFMjMiZTZ2nF9id7MRRJ3e1tiWELDbLGorPE%3d&risl=&pid=ImgRaw&r=0");
+}

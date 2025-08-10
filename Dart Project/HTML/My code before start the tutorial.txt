@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- en: for English language and er: For Arabic language -->
+<head>
+    <meta charset="UTF-8">
+
+    <!-- UTF-8: can be used insted of en or er and its for all languages -->
+     <!-- There is also somting like this:(ISO-9899-x) but it dosen't have the arabic language -->
+    <title>Yazan Salhi Company</title>
+    <meta name="description" content="Yazan's first html web page">
+    <!-- decscreption for the wep page before entering it. -->
+    <meta name="Keyword" content="Yazan,Yooz,yazan,yooz,يزن">
+    <!-- Keyword used when searching for this WebPage. -->
+    <meta name="author" content="Yazan Salhi">
+    <!-- Author for the author of this page which is me. -->
+</head>
+<body>
+    <p>
+        <b>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore accusamus laborum repellendus nobis animi deserunt ea ipsum nemo laudantium modi!
+        </b>
+        <hr>
+        <strong>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur sapiente expedita blanditiis iusto amet repellendus veritatis ut, beatae sit tempore!
+        </strong>
+        <hr>
+        <i>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti dignissimos debitis consequuntur distinctio dolor quasi aut reprehenderit nesciunt quisquam nulla.
+        </i>
+        <hr>
+        <em>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et impedit rerum iure in nobis dicta. Aliquam cum labore nostrum repellat?
+        </em>
+        <hr>
+        <mark>Notes:</mark> 
+         <!--mark for notes  -->
+        <u>Hello World! </u>
+        <!-- u for underline words -->
+         <ins>Take kare of you're self</ins>
+         <!-- ins same as u -->
+    </p>
+
+
+
+    <a href="#sec1">Section1</a> <br>
+    <a href="#sec2">Section2</a> <br>
+    <a href="#sec3">Section3</a>
+    <!-- # is necessary for links when using an id for a section -->
+    <section id="sec1">
+        <h1>Section 1</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, quidem corporis iure facilis illo asperiores vitae dolorum omnis enim, in ad aliquam facere maxime sint ipsam doloribus, sequi eius libero. Ut eius minus quasi deleniti ratione provident excepturi ad quisquam beatae iste? Exercitationem delectus reprehenderit cupiditate quod error ut! Veniam.</p>
+        <!-- You can use Lorem and then a number like this Lorem30 to creat any paragraph with the number of words you want-->
+    </section>
+    <hr>
+    <section id="sec2">
+        <h1>Section 2</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error consequuntur maiores doloribus illum molestias fugit nulla. Quae accusamus, explicabo repellat perferendis facere, tempora distinctio consequuntur dicta nam aperiam sunt suscipit. </p>
+    </section>
+    <hr>
+    <section id="sec3">
+        <h1>Section3</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos neque, pariatur id adipisci qui recusandae beatae alias nostrum molestias nulla maiores corporis iste obcaecati fugit possimus laborum magni fuga dignissimos minima! Nihil ab sunt aspernatur quasi laboriosam repellendus eveniet harum.</p>
+    </section>
+    <hr>
+    <img src="Photo.jpg.jpg" alt="woods">
+    <p>    price: <s>100$</s>  70$
+                <!-- s for making offers on an element (خصومات) -->
+
+    </p>
+    <hr>
+    <img src="Photo.jpg.jpg" alt="woods">
+    <p>    price: <del> 100$ </del> 70$
+                <!-- del for making offers on an element (خصومات) (same as s) -->
+
+    </p>
+    <hr>
+    <p>
+        log<sub>3</sub>5 <br>
+        e <sup>2</sup>
+        <!-- sub for under the line as log and sup for power and these things -->
+    </p>
+    <hr>
+    <table border="1" bgcolor="pink">
+        <!-- border for borders and bgcolor for BackGround color -->
+        <caption>Workers INFO</caption>
+
+        <thead bgcolor = "blue">
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Salary</th>
+                <!-- this is a comment -->
+            </tr>
+
+        </thead>
+
+        <tbody bgcolor = "colur.reusaple">
+            <tr>
+                <td>Yazan</td>
+                <td>19</td>
+                <td>70</td>
+            </tr>
+
+            <tr>
+                <td>Ahmad</td>
+                <td>26</td>
+                <td rowspan="2">200</td>
+            </tr>
+            <tr>
+                <td>Abdallah</td>
+                <td>25</td>
+            </tr>
+
+        </tbody>
+
+        <tfoot bgcolor="red">
+            <tr>
+                <td>Sum</td>
+                <td colspan="2">270</td>
+            </tr>
+
+        </tfoot>
+
+    </table>
+
+    <ol> 
+        <!-- I can add type of order by typing: <ol type="1,A,a,i,I"> -->
+            <!-- Also, I can reverse the numbers by typing:<ol reversed> -->
+        <li>True</li>
+        <li>False</li>
+    </ol>
+    <ul>
+        <li>Yes</li>
+        <li>No</li>
+    </ul>
+
+</body>
+
+</html>
